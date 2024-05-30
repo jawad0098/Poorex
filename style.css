@@ -93,13 +93,18 @@ ul.ul_list {
 }
 
 button.btn-donate {
-    height: 60px;
-    width: 180px;
+    line-height: 55px;
+    height: 55px;
+    padding: 0px 51px;
     background: #fe7f4c;
     border: 0px;
     color: #fff;
     font-size: 14px;
     font-weight: 700;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+    position: relative;
 }
 
 .main_icon {
@@ -2294,7 +2299,8 @@ label span {
     visibility: visible;
     color: #fff;
 }
-.ser-main-tit h4:hover{
+
+.ser-main-tit h4:hover {
     color: #fd753f;
     transition: 0.7s;
 }
@@ -2327,6 +2333,7 @@ label span {
     z-index: -1;
     bottom: 94px;
 }
+
 .about-1::after {
     position: absolute;
     height: 62px;
@@ -2340,28 +2347,33 @@ label span {
 
 
 /* ====================================== Contact_area_start ===================================== */
-.contact-area{
+.contact-area {
     padding: 100px 0px;
 }
-.cont-fist_title p{
+
+.cont-fist_title p {
     font-size: 16px;
     font-weight: 700;
     color: #fe7f4c;
 }
-.cont-fist_title h4{
+
+.cont-fist_title h4 {
     font-size: 50px;
     font-weight: 800;
     color: #1e3737;
     padding-bottom: 20px;
 }
-.cont-fist_title span p{
+
+.cont-fist_title span p {
     font-size: 16px;
     font-weight: 500;
     line-height: 30px;
     color: #6e7a7a;
     padding-bottom: 40px;
 }
-.cont_fist-icons, .copy__icon {
+
+.cont_fist-icons,
+.copy__icon {
     display: flex;
 }
 
@@ -2373,10 +2385,12 @@ label span {
     border: 1px solid #8080804d;
 
 }
+
 .con_secnd {
     background-color: #f2f7f7;
     padding: 60px 50px;
 }
+
 .sec_form input {
     background: #fff;
     border: 1px solid transparent;
@@ -2388,25 +2402,30 @@ label span {
 .sec_form input:focus {
     border: 1px solid #fe7f4c;
 }
+
 .form-text-area textarea {
     height: 10rem;
     width: 100%;
     resize: none;
     border: none;
     padding: 20px 30px;
-    margin: 10px 0px; 
+    margin: 10px 0px;
     outline: none;
 }
+
 .form-text-area textarea:focus {
     border: 1px solid #c73c09cf;
 
 }
+
 .cont_fist-icons {
     padding-bottom: 20px;
 }
+
 .save-button_con {
     padding-top: 20px;
 }
+
 /* .save-button_con, button.btn-donate {
     width: 60%;
 } */
@@ -2417,10 +2436,12 @@ label span {
     background-color: #07847f;
     padding: 50px 55px;
     padding-bottom: 20px;
-}   
+}
 
 
-.details-shap-1, .details-shap-2, .details-shap-3 {
+.details-shap-1,
+.details-shap-2,
+.details-shap-3 {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
@@ -2460,19 +2481,23 @@ label span {
     color: #1e3737;
     transition: 0.3s;
 }
+
 .cont-text p {
     margin: 0;
     padding-top: 11px;
 }
+
 /* ====================================== Contact_details-End ======================================= */
 /* ====================================== location-area-start ======================================= */
 .con-loction-area {
     background: #173c3c;
 }
+
 .icon_cont span:hover {
     background: #fe7f4c;
     color: #fff;
 }
+
 /* ====================================== location-area-End ======================================= */
 /* ====================================== donation-btn-start ======================================= */
 
@@ -2784,27 +2809,32 @@ input.form_check {
     height: 10px;
     width: 10px;
 }
+
 .event-count_title {
     display: flex;
     align-items: center;
     margin-top: 40px;
     margin-bottom: 20px;
 }
+
 h3.count_event {
     font-size: 21px;
     font-weight: 900;
     color: #fe7f4c;
     padding-left: 5px;
 }
+
 .event-count_title h4 {
     font-size: 22px;
     font-weight: 800;
     color: #000000;
 }
-.btn-donate:hover{
+
+.btn-donate:hover {
     background-color: #052725;
     transition: 0.3s;
 }
+
 .event-second {
     height: 21%;
     margin-top: 30px;
@@ -2812,11 +2842,13 @@ h3.count_event {
     padding: 37px 51px;
     margin-bottom: 30px;
 }
+
 .second-title h4 {
     color: #1e3737;
     font-size: 20px;
     font-weight: 700;
 }
+
 .shape__1 {
     display: flex;
     margin: 20px 0px;
@@ -2837,6 +2869,7 @@ h3.count_event {
     font-weight: 300;
     margin-bottom: 6px;
 }
+
 .second-tag {
     background-color: #f2f7f7;
     margin-bottom: 30px;
@@ -2853,9 +2886,11 @@ h3.count_event {
     padding: 30px 40px;
     padding-bottom: 18px;
 }
+
 .sec_btn {
     padding: 2px 40px;
 }
+
 button.\31 st_btn {
     border: 0px;
     background-color: #ffff;
@@ -2863,6 +2898,7 @@ button.\31 st_btn {
     font-size: 12px;
     font-weight: 300;
 }
+
 button.\32 nd_btn {
     border: 0px;
     background-color: #ffffff;
@@ -2870,17 +2906,21 @@ button.\32 nd_btn {
     font-size: 12px;
     font-weight: 300;
 }
+
 .sec_btn button {
     margin: 4px;
 }
-button.\31 st_btn:hover{
+
+button.\31 st_btn:hover {
     background-color: #07847f;
     color: #ffffff;
-}   
+}
+
 button.\32 nd_btn:hover {
     background-color: #07847f;
     color: #ffffff;
 }
+
 /* ====================================== Event-Area-End ======================================= */
 
 
@@ -2889,37 +2929,44 @@ button.\32 nd_btn:hover {
 .events_area {
     padding: 90px;
 }
+
 .event_title_main {
     padding: 30px;
     background: #8080801f;
 }
+
 .main-event-loc {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 20px;
 }
+
 .event-wa-lo i {
     font-size: 17px;
     padding-right: 6px;
     color: black;
 }
+
 .main-event_titl h4 {
     font-size: 24px;
     font-weight: 800;
     color: #1e3737;
     margin-bottom: 25px;
 }
+
 .event-wa-lo a {
     text-decoration: none;
     color: gray;
 }
+
 .tp-event__thumb-text {
     position: absolute;
     bottom: 16px;
     right: 20px;
     z-index: 3;
 }
+
 .tp-event__thumb-date {
     font-size: 22px;
     font-weight: 800;
@@ -2928,10 +2975,12 @@ button.\32 nd_btn:hover {
     position: relative;
     z-index: 1;
 }
+
 .tp-event__thumb-date span {
     font-size: 14px;
     font-weight: 400;
 }
+
 .tp-event__thumb-date::after {
     content: "";
     position: absolute;
@@ -2939,15 +2988,17 @@ button.\32 nd_btn:hover {
     left: -28px;
     height: 150px;
     width: 150px;
-    background-color:#07847f;
+    background-color: #07847f;
     border-radius: 50%;
     z-index: -1;
     transition: all 0.3s ease-out 0s;
 }
-.cont-star{
+
+.cont-star {
     overflow: hidden;
     position: relative;
 }
+
 .cont-star::before {
     content: "";
     inset: 0 30% 100% 30%;
@@ -2957,63 +3008,76 @@ button.\32 nd_btn:hover {
     opacity: 0;
     background: #040803a8;
 }
+
 .cont-star img {
     width: 100%;
 }
-.faq_ser_control-1:hover .cont-star::before{
+
+.faq_ser_control-1:hover .cont-star::before {
     inset: 0;
     visibility: visible;
     opacity: 1;
 }
+
 .faq_ser_control-1:hover .tp-event__thumb-date::after {
-    background-color:#fe7f4c;
+    background-color: #fe7f4c;
     transition: 0.5s;
 }
+
 /* ====================================== Event-area-end ========================================= */
 /* ====================================== Event-details_start ==================================== */
 .main-sec_eve {
     margin: 0px 20px;
 }
-.events_details-area{
+
+.events_details-area {
     padding: 100px 0;
 }
-.event_deat{
+
+.event_deat {
     position: relative;
     padding-bottom: 20px;
 }
+
 .event-det-1 {
     position: absolute;
     top: 20px;
     left: 20px;
     height: 8%;
     width: 10%;
-    background:#fe7f4c;
+    background: #fe7f4c;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+
 .event-det-1 p {
     margin: 0;
     font-size: 16px;
     color: #fff;
     font-weight: 500;
 }
+
 .event_deat img {
     width: 100%;
 }
+
 .event-det-tit h4 {
     font-size: 34px;
     font-weight: 800;
     color: #1e3737;
     padding-bottom: 10px;
 }
+
 .event-det-tit p {
     line-height: 30px;
 }
+
 h4.why-dona {
     padding: 20px 0;
 }
+
 .main-det-icons {
     display: flex;
 }
@@ -3029,10 +3093,12 @@ h4.why-dona {
     font-weight: 800;
     color: #1e3737;
 }
+
 .main-icons-titl p {
     line-height: 30px;
     font-size: 14px;
 }
+
 .sub-main-icon {
     display: flex;
     align-items: center;
@@ -3040,9 +3106,11 @@ h4.why-dona {
     padding-bottom: 30px;
     flex-wrap: wrap;
 }
+
 .event_btn {
     padding: 30px 0;
 }
+
 .event_sec-2 {
     display: flex;
     background: #f2f7f7;
@@ -3050,6 +3118,7 @@ h4.why-dona {
     margin-bottom: 30px;
     flex-wrap: wrap;
 }
+
 .sec_eve-icon {
     margin-right: 20px;
 }
@@ -3063,32 +3132,164 @@ h4.why-dona {
 .sec-eve-titl p {
     font-size: 14px;
     color: gray;
-    
+
 }
+
 .event_sec-3 {
     display: flex;
     margin-bottom: 20px;
 }
+
 .sec_eve-icon i {
     font-size: 25px;
     color: #2e8989;
 }
-.sec_2nd-ev{
+
+.sec_2nd-ev {
     border-top: 2px solid #07847f;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 20px 50px;
     margin-bottom: 30px;
 }
+
 .sec-eve-titl h5 {
     font-size: 18px;
     font-weight: 800;
     color: #1e3737;
 }
+
 .sec_3rd-ev iframe {
     width: 100%;
     margin-bottom: 30px;
 }
+
 /* ====================================== Event-details_end ====================================== */
+/* ====================================== Donation-area-start ====================================== */
+
+.donat-area {
+    padding: 100px 0;
+}
+
+.donations-imgs {
+    position: relative;
+    overflow: hidden;
+}
+
+.donations-imgs img {
+    width: 100%;
+    transition: 0.7s;
+}
+
+.text-donation {
+    padding: 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.text-donation p {
+    line-height: 1.9rem;
+}
+
+.text-donation h5 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1e3737;
+    line-height: 2.1rem;
+    padding-bottom: 6px;
+}
+
+.min-container {
+    width: 90%;
+    background-color: #e9ecef;
+    padding: 0px;
+    padding-right: 0px;
+    height: 35px;
+}
+
+.pers_title {
+    background-color: #ffff;
+    color: #1e3737;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: end;
+    padding-bottom: 6px;
+    padding-right: 11px;
+}
+
+.pragras.bar-per {
+    text-align: right;
+    color: #ffff;
+    padding-right: 7px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+.prograss_gols {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    color: #6E7A7A;
+    font-size: 14px;
+}
+
+.pragras {
+    width: 42%;
+    background-color: #047470;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.sec_main-do {
+    margin-top: 50px;
+}
+
+.sec_main-do button {
+    color: #07847f;
+    background: #f2f7f7;
+}
+
+.sec_main-do button:hover {
+    background-color: #fe7f4c;
+    color: #fff;
+}
+
+.donation-thumb-img {
+    position: absolute;
+    left: -30px;
+    bottom: 11px;
+    z-index: 1;
+}
+
+.donation_thumb-tit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.donations-imgs::after {
+    inset: 100% 100% 0 0;
+    content: "";
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.7s;
+    background-color: #022b298a;
+}
+
+.main-donations-area:hover .donations-imgs::after {
+    opacity: 1;
+    visibility: visible;
+    inset: 0;
+}
+
+.main-donations-area:hover .donations-imgs>img {
+    transform: scale(1.2);
+    transition: 0.9s;
+
+}
+
+/* ====================================== Donation-area-end ====================================== */
 
 
 
@@ -3293,7 +3494,8 @@ ul.ul_list>li {
         left: 113px; */
         max-width: 220px;
     }
-    .about-1::after{
+
+    .about-1::after {
         left: 67px;
         right: 0;
     }
@@ -3357,6 +3559,7 @@ ul.ul_list>li {
     .map__locti {
         display: none;
     }
+
     /* .about-2 img{
         width: 100%;
         position: relative;
@@ -3371,14 +3574,17 @@ ul.ul_list>li {
         /* max-width: 90%; */
         width: 100%;
     }
+
     .event-sec {
         margin-top: 7rem;
     }
+
     .about-2 {
         position: absolute;
         left: 110px;
         bottom: -80px;
     }
+
     .about-2 img {
         max-width: 100%;
     }
@@ -3393,14 +3599,17 @@ ul.ul_list>li {
     .tp_main_header {
         justify-content: center;
     }
+
     .about__1 img {
         width: 100%;
     }
-    .about-2 img{
+
+    .about-2 img {
         width: 100%;
     }
+
     .about-2 img {
         position: relative;
     }
-    
+
 }
