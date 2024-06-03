@@ -3930,12 +3930,45 @@ i.fa-solid.fa-play {
     font-size: 1.4rem;
 }
 
+.has-menu{
+    position: relative;
+    list-style: none;
+}
 
+.sub-menu li a{
+    text-decoration: none;
+    color: #000;
+}
+.sub-menu li{
+    background-color: #fff;
+    list-style: none;
+    padding: 5px 10px;
+    width: 190px;
+}
+.sub-menu{
+    border-top: 1px solid orange;
+    z-index: 4;
+    position: absolute;
+    left: 0;
+    top: 53px;
+    padding-left:0 ;
+    transform: translateY(10px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s;
 
-
-
-
-
+}
+li.has-menu:hover .sub-menu{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+.sub-menu>li>a:hover{
+    color: orange;
+}
+.has-menu>a:hover{
+    color: #2e8989;
+}
 
 
 
